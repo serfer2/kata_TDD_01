@@ -1,5 +1,5 @@
 {
-    "python.pythonPath": "/home/serfer2/Escritorio/py_alc_bites/env/bin/python",
+    "python.pythonPath": "usr/bin/python3.8",
     "python.testing.unittestArgs": [
       "-v",
       "-s",
