@@ -22,7 +22,7 @@ fizzbuzz(37) == 37
 fizzbuzz(45) == "fizz buzz"
 ```
 
-Launch in console:
+Launch tests in console:
 
 ```bash
 python -m test.test_fizz_buzz
@@ -37,9 +37,9 @@ Source: [codewars](https://www.codewars.com/kata/your-basic-fizzbuzz-kata/python
 
 Try to solve these steps, in order, as simply as possible. Remember to refactor after each passing test.
 
- 1. Create a simple String calculator with a method signature: `int Add(string numbers)`.  
- The method can take up to two numbers, separated by commas, and will return their sum.  
- For example `""` or `"1"` or `"1,2"` as inputs.  
+ 1. Create a simple String calculator with a method signature: `int Add(string numbers)`.
+ The method can take up to two numbers, separated by commas, and will return their sum.
+ For example `""` or `"1"` or `"1,2"` as inputs.
  For an empty string it will return `0`.
 
  2. Allow the Add method to handle an unknown amount of numbers.
@@ -56,7 +56,7 @@ Try to solve these steps, in order, as simply as possible. Remember to refactor 
 
     - The first line is optional. All existing scenarios should still be supported.
 
- 5. Calling Add with a negative number will throw an exception `"negatives not allowed"` - and the negative that was passed.  
+ 5. Calling Add with a negative number will throw an exception `"negatives not allowed"` - and the negative that was passed.
  If there are multiple negatives, show all of them in the exception message.
 
  6. Numbers bigger than 1000 should be ignored, so adding `2 + 1001 = 2`.
