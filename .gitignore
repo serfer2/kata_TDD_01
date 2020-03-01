@@ -1,0 +1,47 @@
+*.pyc
+*.sublime-workspace
+*.sublime-project
+*.orig
+*.coverage
+*.mo
+*.log
+*.sql
+*.env
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+.idea
+.vscode
+.vs
+*.retry
+ehthumbs.db
+Thumbs.db
+static/*
+media/*
+
+# Docker volumes files #
+########################
+
+.docker/
+.docker-sync
+
+# Vim files #
+#############
+
+*.swp
+*.swo
+
+# Visual Studio Code #
+######################
+
+.vscode
+.vscode/*
+
+# Lockfiles #
+############
+.~lock*
