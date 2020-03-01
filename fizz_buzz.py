@@ -2,8 +2,8 @@
 
 
 def fizz_buzz(value):
-    # Comprobamos el tipo de la variable
-    tipo_de_la_variable = type(value)  # int, float, str, dict, list, etc...
+    # Comprobamos el tipo de la variable: int, float, str, dict ...
+    tipo_de_la_variable = type(value)
 
     if tipo_de_la_variable not in (int, float):
         raise TypeError
@@ -19,4 +19,3 @@ def fizz_buzz(value):
         return 'buzz'
 
     return value
-
